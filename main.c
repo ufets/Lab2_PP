@@ -28,6 +28,6 @@ int main(int argc, char *argv[])
 {
     check_openmp_support();
 
-    
+    printf("WORK!");
     return 0;
 }
