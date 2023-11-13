@@ -28,6 +28,11 @@ int main(int argc, char *argv[])
 {
     check_openmp_support();
 
-    printf("WORK!");
+    printf(" \tLab2\t \n");
+    //omp_set_num_threads(3);
+    #pragma omp parallel num_threads(3)
+    {
+        printf("123\n");
+    }
     return 0;
 }
